@@ -9,6 +9,8 @@
 	$name_site = $protocol.$domen;
 	
 	# ROOT_DIR  # home/users/a/ameon/domains/site.ru/
+	
+	define("PROTOCOl",$protocol); # http/https
 	define("SITE_URL",$name_site); # http://site.ru
 	define("SHORT_URL",$_SERVER['HTTP_HOST']); # site.ru
 	define("USER_ID", intval($_SESSION['user_id'])); # 1
